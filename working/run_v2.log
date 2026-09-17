@@ -1,0 +1,17 @@
+train_csv -> .\train.csv
+classes_csv -> .\classes.csv
+train_npz -> .\train\images.npz
+test_npz -> .\test\images.npz
+test_meta -> .\test\metadata.csv
+C:\Users\srika\Downloads\eris_robust_med\solution.py:234: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=use_amp)
+C:\Users\srika\Downloads\eris_robust_med\solution.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=use_amp):
+C:\Users\srika\Downloads\eris_robust_med\solution.py:266: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=use_amp):
+model done: resnet34 11 | n_models= 1 | elapsed 280.7
+model done: efficientnet_b0 22 | n_models= 2 | elapsed 685.4
+model done: convnext_tiny 33 | n_models= 3 | elapsed 1534.2
+model done: resnet50 44 | n_models= 4 | elapsed 2226.8
+model done: resnet18 55 | n_models= 5 | elapsed 2503.8
+wrote working\submission.csv (4000, 2) | models used 5 | total time 2503.9
